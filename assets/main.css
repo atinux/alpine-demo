@@ -1,0 +1,24 @@
+html {
+  background-color: $dt('color.gray.100');
+  /* font-family: ClashGrotesk; */
+}
+
+html.dark {
+  background-color: $dt('color.gray.900');
+}
+
+/* Color scheme images helper classes */
+.light-img {
+  display: block;
+}
+.dark-img {
+  display: none;
+}
+@dark {
+  .dark-img {
+    display: block;
+  }
+  .light-img {
+    display: none;
+  }
+}
